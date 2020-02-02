@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Mais Opcões"
+        android:icon="@drawable/ic_opcoes"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/adicionar"
+                android:icon="@drawable/baseline_plus"
+                android:title="Adicionar produto"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/listar"
+                android:icon="@drawable/baseline_list"
+                android:title="Listar produtos"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+</menu>
